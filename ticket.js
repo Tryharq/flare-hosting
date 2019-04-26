@@ -28,7 +28,7 @@ module.exports.run = async (bot, message, args) => {
 
     });
 
-    // Als ticket return code.
+   
     if (bool == true) return;
 
     var embedCreateTicket = new discord.RichEmbed()
