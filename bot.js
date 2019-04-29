@@ -6,7 +6,7 @@ client.on('ready', () => {
 
 });
 //Speelt
-bot.on("ready", async () => { 
+client.on("ready", async () => { 
 
     console.log(`${bot.user.username} is online on ${bot.guilds.size} server(s) !`);
 
