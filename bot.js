@@ -1,8 +1,6 @@
-const discord = require("discord.js");
-const botConfig = require("./botconfig.json");
-const fs = require("fs");
-const bot = new discord.Client();
-bot.commands = new discord.Collection();
+client.login(process.env.BOT_TOKEN);
+const Discord = require('discord.js');
+const client = new Discord.Client();
 
 bot.on('guildMemberAdd', member => {
     var role = member.guild.roles.find("name", "Speler");
@@ -120,3 +118,4 @@ bot.on("message", async message => {
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
+
